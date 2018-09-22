@@ -1,0 +1,157 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    min-width: 1320px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.top_side{
+    position: relative;
+    background-color: #fff
+}
+
+.topmenu{
+    width: 100%;
+    max-width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top_side #kalog {
+    float: left;
+}
+
+.top_side #kalog a{
+    display: block;
+    overflow: hidden;
+    line-height: 58px;
+    font-size: 25px;
+    width: 66px;
+    height: 60px;
+}
+
+.gnb{
+    display: inline-block;
+    height: 60px;
+    vertical-align: top;
+}
+
+.gnb #first{
+    float: left;
+    height: 60px;
+    margin-left: 5px;
+}
+
+.gnb #first > li{
+    float: left;
+    height: 61px;
+}
+.gnb #first li a{
+    display: block;
+    position: relative;
+    height: 60px;
+    padding: 0 14px 0 13px;
+    font-size: 16px;
+    line-height: 56px;
+    font-family: 'NotoSans Regular','Malgun Gothic','맑은 고딕','Apple SD Gothic Neo','돋움',dotum, sans-serif;
+}
+
+#second{
+    float: right;
+    margin-top: 22px;
+}
+
+#second li{
+    float: left;
+    padding: 0 12px 0 0px;
+}
+
+.box{
+    position: absolute;
+    top: 61px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-width: 1320px;
+    height: 60px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+
+.info{
+    position: relative;
+    max-width: 1160px;
+    height: 60px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.info ul{
+    float: left;
+    margin-top: 19px;
+}
+
+.info ul li{
+    float: left;
+    margin-right: 8px;
+}
+
+.info ul li a{
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'NotoSans Regular','Malgun Gothic','맑은 고딕','Apple SD Gothic Neo','돋움',dotum, sans-serif;
+    color: #666;
+}
+
+.info ul li span{
+    float: right;
+    width: 7px;
+    height: 11px;
+    margin: 2px 0 0 8px;
+    background-position: -80px -60px;
+}
+.screen_out{
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+.util{
+    float: right;
+}
+
+.util a .screen_out{
+    float: left;
+}
+
+.util a{
+    height: 60px;
+    line-height: 60px;
+}
+
+.btn_down{
+    font-size: 14px;
+    line-height: 60px;
+    font-family: 'NotoSans Regular','Malgun Gothic','맑은 고딕','Apple SD Gothic Neo','돋움',dotum, sans-serif;
+}
+.util_download{
+    float: right;
+    margin-left: 45px;
+}
+
+.ico_corp{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    background:url(//t1.kakaocdn.net/kakaocorp/pw/ico_corp.png) no-repeat;
+}
